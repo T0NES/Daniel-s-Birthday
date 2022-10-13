@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(lightskyblue, whitesmoke);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#Pokemon-gif {
+    border: 6px solid white;
+    border-radius: 10px;
+}
+
+#bday-age {
+    background: #1E90FF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    position: relative;
+    bottom: -20px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("Happy.gif");
+    width: 700px;
+    height: 500px;
+}
+
+#gift-img-humble:hover {
+    background-image: url("Humble.gif");
+    max-width: 1000px;
+    height: 600px;
+}
+
+#gift-img-birthdaysong:hover {
+    background-image: url("Happybirthday.gif");
+    width: 400px;
+    height: 400px;
+}
+
+a {
+    color: white;
+}
